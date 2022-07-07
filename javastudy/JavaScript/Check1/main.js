@@ -7,7 +7,8 @@ function isEven(num) {
 
 for (let i = 0; i < numbers.length; i++) {
     if(numbers[i] % 2 ===0){
-        let Even = isEven(numbers[i]);
+        //let Even = isEven(numbers[i]);
+        isEven(numbers[i]);
     }
 }
 
